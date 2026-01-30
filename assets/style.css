@@ -5,6 +5,10 @@
   transition: transform 0.4s ease;
 }
 
+h1, h2, p, .nav-link {
+    font-family: "Lato", sans-serif;
+}
+
 .card-link {
   display: block;
   text-decoration: none;
@@ -57,4 +61,33 @@
 .p-fecha-curso{
     font-weight: 300;
     font-size: 16px;
+}
+
+.p-fecha-experiencia{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 2px;
+}
+
+.p-detalle-experiencia{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container{
+    margin-top: 60px;
+}
+
+.container-inicio {
+    margin-top: 32px;
+}
+
+.p-subtitulo-inicio {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.p-bajada-inicio {
+    font-size: 18px;
+    font-weight: 300;
 }
